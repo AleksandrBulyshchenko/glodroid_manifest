@@ -14,7 +14,7 @@ First of all, currently this project only supports Orange Pi Plus 2E, so if you 
 ### Additional equipment
 We strongly advice you to mount some cooling system like heatsink or fan onto your Orange Pi since Android requires relatively much of resources to run therefore overheats without fans or heatsinks will occur. Cooling is **necessary** for stable and long-term work of Android on Orange Pi.
 
-Another piece of equipment necessary for work is obviously, power adapter. We suggest to have one that has 3-4A, since Android is a bit of resource-intensive OS.
+Another piece of equipment necessary for work is obviously, power adapter. We suggest to have one with 3-4A/5V, since Android is a bit of resource-intensive OS.
 
 Please note that Android **requires** display for work. It simply won't lauch without it. Orange Pi has an HDMI connector to connect display, so please use it. There are no specific requirements on display though, so you could use both typical desktop monitor or some chinese TFT car monitor.
 
