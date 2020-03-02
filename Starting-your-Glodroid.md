@@ -1,7 +1,7 @@
 ## Things needed for work
 - Orange Pi (Plus 2E preferably)
 - Power adapter, 3-4A/5V
-- USB-to-TTF connector and wires to connect it
+- USB-to-TTL connector and wires to connect it
 - USB cable
 - Display and HDMI cable for connection
 - SD card, 2 GB minimum
