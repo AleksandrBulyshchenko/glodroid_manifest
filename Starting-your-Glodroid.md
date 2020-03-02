@@ -1,12 +1,22 @@
+## Things needed for work
+- Orange Pi (Plus 2E preferably)
+- Power adapter, 3-4A/5V
+- USB-to-TTF connector and wires to connect it
+- USB cable
+- Display and HDMI cable for connection
+- SD card, 2 GB minimum
+- Android image
+
+## Details
 ### Supported platforms
 First of all, currently this project only supports Orange Pi 2 PlusE, so if you don't want to put extra effort into adding support for other platform then please choose Pi 2 PlusE. Porting other Orange Pi models is a doable thing, though adding support for other platform should be covered in other document.
 
 ### Additional equipment
-We strongly advice you to mount some cooling system like heatsink or fan. to your Orange Pi since Android requires relatively much of resources to run and overheats without fans or heatsinks will occur. Cooling is **necessary** for stable and long-term work of Android on Orange Pi.
+We strongly advice you to mount some cooling system like heatsink or fan onto your Orange Pi since Android requires relatively much of resources to run therefore overheats without fans or heatsinks will occur. Cooling is **necessary** for stable and long-term work of Android on Orange Pi.
 
 Another piece of equipment necessary for work is obviously, power adapter. We suggest to have one that has 3-4A, since Android is a bit of resource-intensive OS.
 
-Please note that Android **requires** display for work. It simply won't lauch without it. Orange Pi has an HDMI connector to connect display.
+Please note that Android **requires** display for work. It simply won't lauch without it. Orange Pi has an HDMI connector to connect display, so please use it. There are no specific requirements on display though, so you could use both typical desktop monitor or some chinese TFT car monitor.
 
 Next, you need USB-to-TTL converter to connect to Orange via serial port. It is needed for working with bootloader and kernel consoles via tool called `minicom`. Each Orange Pi board has TTL UART, though it's location could vary. It has 3 pins: GND, Rx and Tx. Converter connects to Orange in the following principle: GND to GND, Rx to Tx, Tx to Rx. Exact position of each pin could vary between Orange models, so please consult with documentation. For example, here's how Orange Pi Win is connected:
 
