@@ -32,7 +32,7 @@ lunch plus2e-userdebug
 make sdcard
 ```
 
-After building Android you could find out/target/product/sdcard.img file. Use it to flash sd-card with dd or some better tool, for example:
+After building Android you could find `out/target/product/sdcard.img` file. Use it to flash sd-card with dd or some better tool, for example:
 ```bash
 cd ${ANDROID_ROOT}/
 export card=/dev/sdX
