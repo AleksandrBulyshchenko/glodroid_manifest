@@ -42,7 +42,7 @@ sync
 
 Put sd-card in respective port, connect Orange Pi to power, connect your working machine and Orange via usb to work via adb later. Execute `minicom -D /dev/ttyUSB0` to see bootloader logs from board. Turn your board on. Enjoy launch of Android (or failure to do so).
 
-### Things to do after launch:
+## Things to do after launch:
 - Build and run VTS tests (_link on how-to-run-vts to be provided_).
 - Check the Roadmap on features to work on (_link to be provided_).
 - Check the [issues](https://github.com/glodroid/glodroid_manifest/issues) and try to resolve them.
