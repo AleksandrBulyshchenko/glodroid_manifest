@@ -46,3 +46,4 @@ Put sd-card in respective port, connect Orange Pi to power, connect your working
 - Build and run VTS tests (_link on how-to-run-vts to be provided_).
 - Check the Roadmap on features to work on (_link to be provided_).
 - Check the [issues](https://github.com/glodroid/glodroid_manifest/issues) and try to resolve them.
+- Submit any newly found issues.
