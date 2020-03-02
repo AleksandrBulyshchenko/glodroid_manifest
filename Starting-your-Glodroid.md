@@ -9,7 +9,7 @@
 
 ## Details
 ### Supported platforms
-First of all, currently this project only supports Orange Pi 2 PlusE, so if you don't want to put extra effort into adding support for other platform then please choose Pi 2 PlusE. Porting other Orange Pi models is a doable thing, though adding support for other platform should be covered in other document.
+First of all, currently this project only supports Orange Pi Plus 2E, so if you don't want to put extra effort into adding support for other platform then please choose Pi Plus 2E. Porting other Orange Pi models is a doable thing, though adding support for other platform should be covered in other document.
 
 ### Additional equipment
 We strongly advice you to mount some cooling system like heatsink or fan onto your Orange Pi since Android requires relatively much of resources to run therefore overheats without fans or heatsinks will occur. Cooling is **necessary** for stable and long-term work of Android on Orange Pi.
