@@ -1,4 +1,4 @@
-##What is Glodroid
+## What is Glodroid
 
 Glodroid is a project that adapts Android Open-Source Project to support Orange Pi platform in a way that is:
 * Open and free as much as it's possible;
