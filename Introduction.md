@@ -24,3 +24,9 @@ The goals of this project is:
 * Provide a cheap platform with up-to-date Android for easier prototyping, learning and researching.
 * Make it easy to start, reduce steps to build and deploy Android on your board as much as it's possible. No need to build kernel separately, download external binaries and fiddle with putting them in a correct place, etc.
 * Upstream everything we could upstream in order to help community.
+
+## Further readings
+
+* [Starting your Glodroid](https://github.com/roman-kovalivskyi/glodroid_manifest/wiki/Starting-your-Glodroid)
+* [Project structure](https://github.com/roman-kovalivskyi/glodroid_manifest/wiki/Project-structure)
+* Roadmap (*to be provided later*)
