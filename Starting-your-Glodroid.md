@@ -42,6 +42,16 @@ sync
 
 Put sd-card in respective port, connect Orange Pi to power, connect your working machine and Orange via usb to work via adb later. Execute `minicom -D /dev/ttyUSB0` to see bootloader logs from board. Turn your board on. Enjoy launch of Android (or failure to do so).
 
+#### Additional options for building Android                                                        
+You could also build an alternative version of Android, at the moment you can only build Android TV. Android TV is a version of the     Android operation system for television and multimedia systems. Android TV includes some applications that are only required for And    roid TV.
+                                                                                                     
+To build Android TV, you need to set the `DEVICE_TYPE` variable to `tv` before invoking the `make` command.
+```                                                                                                 
+...                                                                                                 
+export DEVICE_TYPE=tv                                                                               
+make sdcard                                                                                         
+```
+
 ## Things to do after launch:
 - Build and run VTS tests (_link on how-to-run-vts to be provided_).
 - Check the Roadmap on features to work on (_link to be provided_).
